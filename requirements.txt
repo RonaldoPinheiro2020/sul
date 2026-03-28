@@ -2,13 +2,17 @@ annotated-types==0.7.0
 cx_Freeze==8.6.3
 fdb==2.0.4
 filelock==3.25.2
+flake8==7.3.0
 freeze-core==0.6.1
 greenlet==3.3.2
+mccabe==0.7.0
 packaging==26.0
 patchelf==0.17.2.4
 psycopg2-binary==2.9.11
+pycodestyle==2.14.0
 pydantic==2.12.5
 pydantic_core==2.41.5
+pyflakes==3.4.0
 setuptools==82.0.1
 SQLAlchemy==2.0.48
 typing-inspection==0.4.2
