@@ -3,11 +3,15 @@ name: Create Release
 on:
   push:
     tags:
-      - 'v*' # Dispara quando você subir uma tag tipo v1.0.0
+      - 'v*'
 
 jobs:
   release:
     runs-on: ubuntu-latest
+    # ADICIONE ESTAS TRÊS LINHAS ABAIXO:
+    permissions:
+      contents: write
+    
     steps:
       - uses: actions/checkout@v4
       
