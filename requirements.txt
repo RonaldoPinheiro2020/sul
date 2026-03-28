@@ -1,0 +1,5 @@
+fdb
+psycopg2-binary
+pydantic
+sqlalchemy>=2.0
+cx_Freeze
