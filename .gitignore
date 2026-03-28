@@ -1,0 +1,32 @@
+### Python ###
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+### Banco de Dados ###
+*.fdb
+*.fbk
+*.sql.bak
+*.log
+
+### IDEs (VS Code / Kate / PyCharm) ###
+.vscode/
+.idea/
+*.swp
+*~
+
+### Sistema / OS ###
+.DS_Store
+Thumbs.db
+
+### cx_Freeze / Builds ###
+build/
+dist/
+*.exe
+*.msi
